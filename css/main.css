@@ -104,6 +104,24 @@ footer a:not(.nav-link) {
   text-decoration: none;
   cursor: pointer; }
 
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+  }
+  .spinner-cv{
+    align-items: center;
+  }
+  .mystyle{
+    display: none !important;
+  }
+
 @media (min-width: 48em) {
   .site-title {
     float: left; }
